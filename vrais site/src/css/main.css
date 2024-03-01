@@ -1,0 +1,137 @@
+/*
+global
+*/
+.heading-site {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.COLORED {
+	height: 400px;
+	width: 100%;
+	background-color: #7222b4;
+	padding: 30px;
+	text-align: center;
+}
+
+
+/*
+header
+*/
+.header {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0, 0 ,0 ,0);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+	
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header .header-menu a:hover {
+	color: #7222b4;
+}
+
+/*
+bannier
+*/
+.banner {
+	margin-top: -20px;
+}
+
+.banner .banner-image {
+	position: relative;
+}
+
+.banner .banner-content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+	color: #FFFFFF;
+}
+
+/*
+about
+*/
+.about .about-single-element .con {
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.about .about-single-element {
+	text-align: center;
+}
+
+.about .about-single-element p {
+	text-align: left;
+	margin-top: 20px;
+}
+
+/*
+footer
+*/
+
+.footer .footer-informations {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer .footer-informations ul {
+	padding: 0%;
+}
+
+.footer .footer-informations ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+/*
+modal
+*/
+
+.own-modal {
+	padding-top: 120px;
+	
+}
+
+/*
+responsive example
+*/
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+	#open_modal {
+		display: none;
+		
+	}
+}
+
